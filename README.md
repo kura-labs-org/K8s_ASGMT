@@ -1,6 +1,6 @@
 # K8s assignment
-### Below, we have the goals for this assignment. See the [K8s-doc.md](https://github.com/ibrahima1289/K8s-assignment/blob/main/K8s-doc.md) document for a detailed documentation.
-### For this assignment, we used a Python Flask app called [calculator](https://github.com/ibrahima1289/calculator).
+
+### For this assignment, we used a Python Flask app called [calculator](https://github.com/ibrahima1289/calculator) to deploy.
 
 ## Goal
 
@@ -14,8 +14,6 @@
 **Task 3**: Document your process of Dockerizing your flask app and deploying your app to Kubernetes.
 
 ## Precedure
-
-## K8s assignment
 
 ### Task 1: Dockerize your flask app and create an image you can push up to DockerHub.
 
