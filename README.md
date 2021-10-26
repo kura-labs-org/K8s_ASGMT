@@ -186,7 +186,7 @@ $ kubectl apply -f flask-web.yml
 
 9.  Check on the web browser
 ```
-http://localhost:8080
+http://localhost:8081
 ```
 
 10. Delete the deployment and service after you finish.
