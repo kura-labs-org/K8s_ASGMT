@@ -173,6 +173,22 @@ information above and it should look like as shown below if the terminal was use
 4. To make a yaml file, type the command:
    "nano ----.yaml"
    *----: The name you choose for the file
+   
+   Refer to the code below to make the yaml file. Update the following lines:
+   app:"" with the name of the image
+   name: Anything for your reference
+   image: username/image
+   containerPort: 5000
+
+   port: 8080
+   targetPort: 5000
+```
+
+<html>
+   <h1>
+      <img style="float: center;" src=16.png width="1000" />
+   </h1>
+</html>
 
 ```
 On the internet browser, type in localhost:8081 to access the application. 
