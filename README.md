@@ -1,6 +1,6 @@
 # K8s_ASGMT
 
-# Task 1
+# Task 1: Using Docker to run a Python Flask Application
 ```
 1. When running an application, its best to make a new directory or a new folder to store all of 
    your application files in an organized place separated from other computer files. As shown 
@@ -110,6 +110,17 @@ information above and it should look like as shown below if the terminal was use
       <img style="float: center;" src=5.png width="1000" />
    </h1>
 </html>
+
+```
+   On a web browser, type localhost:5000 and the application should appear
+```
+
+<html>
+   <h1>
+      <img style="float: center;" src=9.png width="1000" />
+   </h1>
+</html>
+
 
 # Task 2
 1. a
