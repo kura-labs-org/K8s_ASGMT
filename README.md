@@ -52,8 +52,14 @@ EXPOSE 5000
 CMD flask run --host=0.0.0.0
 
 From the command line in the same application files directory, you can also run 'nano Dockerfile' and paste the following 
-information above. 
+information above and it should look like as shown below if the terminal was used to make the Dockerfile. 
 ```
+
+<html>
+   <h1>
+      <img style="float: center;" src=14.png width="1000" />
+   </h1>
+</html>
 
 <html>
    <h1>
