@@ -2,7 +2,9 @@
 
 # Task 1
 ```
-1. When running an application, its best to make a new directory or a new folder to store all of your application files in an organized place. After knowing where your files are located in your system, open the Command Prompt or Terminal.
+1. When running an application, its best to make a new directory or a new folder to store all of 
+your application files in an organized place. After knowing where your files 
+are located in your system, open the Command Prompt or Terminal.
 ```
 
 ![alt text](https://github.com/AndrewDass1/K8s_ASGMT/12.png?raw=true)
