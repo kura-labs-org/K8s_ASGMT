@@ -9,7 +9,7 @@
 
 <html>
      <h1>
-        <img style="float: center;" src=12.png width="25" />
+        <img style="float: center;" src=12.png width="500" />
      </h1>
 </html>      
 
