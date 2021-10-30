@@ -21,12 +21,14 @@
 </html>
 ```
 2. After knowing where your files are located in your system, open the Command Prompt or Terminal. 
-Now open use the cd command to enter into the directory. 
+Now open use the cd command to enter into the directory. As shown above I have two files called
+"Dockerfile" and requirements.txt. To run an application on Docker, these two files are needed. 
 ```
 
+3. 
 
  
-3. Create a Dockerfile:
+4. To create a Dockerfile enter the following:
 
 FROM python:3.10
 COPY ./requirements.txt requirements.txt
@@ -37,12 +39,12 @@ ENV FLASK_APP=application.py
 EXPOSE 5000
 CMD flask run --host=0.0.0.0
 
-4. By using the Dockerfile, use it to build an image with the command:
+5. By using the Dockerfile, use it to build an image with the command:
     "sudo docker build -t ------" 
    * ----- is the name that can be given to the newly created image. I named my image fproject1.1
     
     
-5. sudo docker run -d -p 5000:5000 ------ 
+6. sudo docker run -d -p 5000:5000 ------ 
 
 ```
 
