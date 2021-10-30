@@ -122,8 +122,64 @@ information above and it should look like as shown below if the terminal was use
 </html>
 
 
-# Task 2
-1. a
+# Task 2: Pushing a Docker image to Dockerhub to run it on Kubernetes
+```
+1. By creating a Dockerfile and using the build command, an image is made and accesible through our local computer. To access the
+   same image from anywhere, Docker has their own GUI called Dockerhub. Its possible to send images from a local computer by using the
+   push command to send the image to a Dockerhub account. 
 
-2.
+   From the terminal log in to your docker account with the command:
+   "docker login"
+   
+   It asks for your username and password to your Dockerhub account. 
+   
+   Then run the command:
+   
+   "docker push username/imagename"
+   username - Name of Dockerhub account. Found on top right of the screen. 
+   imagename - The name of the image
+```
 
+<html>
+   <h1>
+      <img style="float: center;" src=7.png width="1000" />
+   </h1>
+</html>
+
+```
+2. To run a Kubernetes cluster, run the command:
+   "k3d cluster create -p "8081:8080@loadbalancer"
+   
+   This specific commands makes a Kubernetes cluster and each cluster needs a port to be specified. The first number (8081) shows 
+   the number that other devices can connect to it while 8080 is the port of the cluster.
+```
+
+<html>
+   <h1>
+      <img style="float: center;" src=8.png width="1000" />
+   </h1>
+</html>
+
+
+```
+3. A message should appear the application is running however, run the command:
+   "kubectl get pod"
+   
+   kubectl get pod shows if the application is currently running. If the status shows "RUNNING", then the application
+   is running. 
+   
+   To access the application on an internet browser, we must create a yaml file. 
+
+4. To make a yaml file, type the command:
+   "nano ----.yaml"
+   *----: The name you choose for the file
+
+```
+On the internet browser, type in localhost:8081 to access the application. 
+```
+
+<html>
+   <h1>
+      <img style="float: center;" src=10.png width="1000" />
+   </h1>
+</html>
