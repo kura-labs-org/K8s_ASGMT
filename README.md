@@ -12,14 +12,13 @@
      <h1>
         <img style="float: center;" src=12.png width="1000" />
      </h1>
-   
-     <h1>
-      <img style="float: center;" src=13.png width="1000" />
-   </h1>
-   
 </html>  
 
-
+<html>
+   <h1>
+      <img style="float: center;" src=13.png width="1000" />
+   </h1>
+</html>
 ```
 2. After knowing where your files are located in your system, open the Command Prompt or Terminal. 
 Now open use the cd command to enter into the directory. 
