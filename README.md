@@ -1,4 +1,4 @@
-# K8s_ASGMT
+# Kubernetes Assignment
 
 # Task 1: Using Docker to run a Python Flask Application
 ```
