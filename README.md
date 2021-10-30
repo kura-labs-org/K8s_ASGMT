@@ -34,8 +34,16 @@ into a new file called 'requirements.txt'.
 
 To make a new file by using the command line in the same directory where the application files are located, enter
 the command "nano requirements.txt" and a blank screen should show up. It is also possible to paste and then save 
-the list package information by using this method too. 
+the list package information by using this method too. Below shows my package list to run my application:
 
+```
+<html>
+   <h1>
+      <img style="float: center;" src=15.png width="1000" />
+   </h1>
+</html>
+
+```
 By listing the needed packages, the Dockerfile can be told to read the package information and download it to make 
 an image to run the application. 
 
