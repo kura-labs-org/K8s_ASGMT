@@ -76,13 +76,40 @@ information above and it should look like as shown below if the terminal was use
    </h1>
 </html>
 
-5. By using the Dockerfile, use it to build an image with the command:
-    "sudo docker build -t ------" 
+```
+5. Now use Dockerfile to build an image with the command:
+   "docker build -t ------" 
    * ----- is the name that can be given to the newly created image. I named my image fproject1.1
-    
-    
-6. sudo docker run -d -p 5000:5000 ------ 
+   * If an error was received from the command above, make sure Docker is installed and currently 
+   running on the computer
 
+6. Now run the command: 
+
+   "docker run -d -p 5000:5000 ------" 
+   
+   A string of many letters and numbers should appear indicating a new container was created but now
+   to see the application on the terminal, type the next command:
+   
+   "curl localhost:5000"
+```
+
+<html>
+   <h1>
+      <img style="float: center;" src=3.png width="1000" />
+   </h1>
+</html>
+
+<html>
+   <h1>
+      <img style="float: center;" src=4.png width="1000" />
+   </h1>
+</html>
+
+<html>
+   <h1>
+      <img style="float: center;" src=5.png width="1000" />
+   </h1>
+</html>
 
 # Task 2
 1. a
