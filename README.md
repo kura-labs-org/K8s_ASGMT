@@ -23,12 +23,24 @@
 2. After knowing where your files are located in your system, open the Command Prompt or Terminal. 
 Now open use the cd command to enter into the directory. As shown above I have two files called
 "Dockerfile" and requirements.txt. To run an application on Docker, these two files are needed. 
-```
 
-3. 
+3. To make a requirements.txt, enter the command on your computer or virtual environment to run the application:
+py -m pip list (Windows)
+python -m pip list (Unix/MacOS)
 
+This shows what packages will be needed to be installed to run your application. Copy the list of packages and paste it
+into a new file called 'requirements.txt'.  
+
+To make a new file by using the command line in the same directory where the application files are located, enter
+the command "nano requirements.txt" and a blank screen should show up. It is also possible to paste and then save 
+the list package information by using this method too. 
+
+By listing the needed packages, the Dockerfile can be told to read the package information and download it to make 
+an image to run the application. 
+
+*The naming of 'requirements.txt' is case sensitive and should be written as shown in quotes. 
  
-4. To create a Dockerfile enter the following:
+4. To create a Dockerfile in the same directory where the application files are located, enter the following:
 
 FROM python:3.10
 COPY ./requirements.txt requirements.txt
@@ -38,6 +50,16 @@ COPY application.py application.py
 ENV FLASK_APP=application.py
 EXPOSE 5000
 CMD flask run --host=0.0.0.0
+
+From the command line in the same application files directory, you can also run 'nano Dockerfile' and paste the following 
+information above. 
+```
+
+<html>
+   <h1>
+      <img style="float: center;" src=2.png width="1000" />
+   </h1>
+</html>
 
 5. By using the Dockerfile, use it to build an image with the command:
     "sudo docker build -t ------" 
