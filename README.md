@@ -19,6 +19,7 @@
       <img style="float: center;" src=13.png width="1000" />
    </h1>
 </html>
+
 ```
 2. After knowing where your files are located in your system, open the Command Prompt or Terminal. 
 Now open use the cd command to enter into the directory. As shown above I have two files called
@@ -74,7 +75,6 @@ information above and it should look like as shown below if the terminal was use
     
 6. sudo docker run -d -p 5000:5000 ------ 
 
-```
 
 # Task 2
 1. a
