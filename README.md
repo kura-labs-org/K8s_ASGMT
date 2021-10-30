@@ -3,17 +3,29 @@
 # Task 1
 ```
 1. When running an application, its best to make a new directory or a new folder to store all of 
-   your application files in an organized place. After knowing where your files are located in 
-   your system, open the Command Prompt or Terminal.
+   your application files in an organized place separated from other computer files. As shown 
+   below, I made a new folder called "project" on my Desktop to store all of my application 
+   files in a one place.
 ```
 
 <html>
      <h1>
         <img style="float: center;" src=12.png width="1000" />
      </h1>
-</html>      
+   
+     <h1>
+      <img style="float: center;" src=13.png width="1000" />
+   </h1>
+   
+</html>  
 
-2. use the cd to go into the 
+
+```
+2. After knowing where your files are located in your system, open the Command Prompt or Terminal. 
+Now open use the cd command to enter into the directory. 
+```
+
+
  
 3. Create a Dockerfile:
 
