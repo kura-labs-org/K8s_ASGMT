@@ -21,8 +21,11 @@
 3. To make a requirements.txt, enter the commands on your computer or virtual environment to run the application:
 ```
 py -m pip list (Windows)
+```
+```
 python -m pip list (Unix/MacOS)
 ```
+
 This shows what packages will be needed to be installed to run your application. Copy the list of packages and paste it
 into a new file called 'requirements.txt'.  <br>
 <br>
