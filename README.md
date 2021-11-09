@@ -19,10 +19,9 @@
 2. After knowing where your files are located in your system, open the Command Prompt or Terminal. Now open use the cd command to enter into the directory. As shown above I have two files called "Dockerfile" and requirements.txt. To run an application on Docker, these two files are needed. <br>
 <br>
 3. To make a requirements.txt, enter the commands on your computer or virtual environment to run the application:
+
 ```
 py -m pip list (Windows)
-```
-```
 python -m pip list (Unix/MacOS)
 ```
 
@@ -74,19 +73,19 @@ information above and it should look like as shown below if the terminal was use
 
 5. Now use Dockerfile to build an image with the command:
 ```
-   "docker build -t ------" 
+"docker build -t ------" 
 ```
 ----- is the name that can be given to the newly created image. I named my image fproject1.1 <br>
 If an error was received from the command above, make sure Docker is installed and currently running on the computer <br>
 <br>
 6. Now run the command: 
 ```
-   "docker run -d -p 5000:5000 ------" 
+"docker run -d -p 5000:5000 ------" 
 ```
 
 A string of many letters and numbers should appear indicating a new container was created but now to see the application on the terminal, type the next command:
 ```   
-   "curl localhost:5000"
+"curl localhost:5000"
 ```
 
 <html>
@@ -129,7 +128,7 @@ It asks for your username and password to your Dockerhub account. <br>
 <br>   
 Then run the command:
 ```   
-   "docker push username/imagename"
+"docker push username/imagename"
 ```
 username - Name of Dockerhub account. Found on top right of the screen. <br>
 imagename - The name of the image
@@ -142,7 +141,7 @@ imagename - The name of the image
 
 2. To run a Kubernetes cluster, run the command:
 ```
-   "k3d cluster create -p "8081:8080@loadbalancer"
+"k3d cluster create -p "8081:8080@loadbalancer"
 ```   
 This specific commands makes a Kubernetes cluster and each cluster needs a port to be specified. The first number (8081) shows the number that other devices can connect to it while 8080 is the port of the cluster.
 
@@ -155,7 +154,7 @@ This specific commands makes a Kubernetes cluster and each cluster needs a port 
 
 3. A message should appear the application is running however, run the command:
 ```
-   "kubectl get pod"
+"kubectl get pod"
 ```   
 kubectl get pod shows if the application is currently running. If the status shows "RUNNING", then the application is running. <br>
 <br>   
