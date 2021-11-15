@@ -3,5 +3,5 @@
 
 <h2>Welcome to the E8s assignment repo.</h2>  
 
-- Make a pull request to submit your assignment: 
+- flask app containerized exposing port 5000  and using load balancer to portfowards 8080 to 5000
 
