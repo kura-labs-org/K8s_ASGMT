@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pythonapp
+spec:
+  selector:
+    matchLabels:
+      app: thepythonapp
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: thepythonapp
+    spec:
+      containers:
+      - name: user-service
+        image: jespstpierre/flask-urlshortnerkuralabs 
+
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: pythonapp-service
+spec:
+  selector:
+    app: thepythonapp
+  type: LoadBalancer
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 5000
