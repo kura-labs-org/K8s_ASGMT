@@ -50,3 +50,7 @@ def page_not_found(error):
 @app.route('/api')
 def session_api():
     return jsonify(list(session.keys()))
+
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0')
