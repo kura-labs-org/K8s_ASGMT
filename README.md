@@ -118,17 +118,15 @@ On a web browser, type localhost:5000 and the application should appear
 
 # Task 2: Pushing a Docker image to Dockerhub to run it on Kubernetes
 
-1. By creating a Dockerfile and using the build command, an image is made and accesible through our local computer. To access the same image from anywhere, Docker has their own GUI called Dockerhub. Its possible to send images from a local computer by using the push command to send the image to a Dockerhub account. <br>
-<br>
-From the terminal log in to your docker account with the command:
+1. By creating a Dockerfile and using the build command, an image is made and accesible through our local computer. To access the same image from anywhere, Docker has their own GUI called Dockerhub. Its possible to send images from a local computer by using the push command to send the image to a Dockerhub account. From the terminal log in to your docker account with the command:
 ```
-"docker login"
+docker login
 ```   
 It asks for your username and password to your Dockerhub account. <br>
 <br>   
 Then run the command:
 ```   
-"docker push username/imagename"
+docker push username/imagename
 ```
 username - Name of Dockerhub account. Found on top right of the screen. <br>
 imagename - The name of the image
