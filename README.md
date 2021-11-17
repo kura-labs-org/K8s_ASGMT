@@ -12,7 +12,7 @@
 
 <html>
    <h1>
-      <img style="float: center;" src=13.png width="1000" />
+      <img style="float: center;" src=Pictures/13.png width="1000" />
    </h1>
 </html>
 
@@ -34,7 +34,7 @@ the list package information by using this method too. Below shows my package li
 
 <html>
    <h1>
-      <img style="float: center;" src=15.png width="1000" />
+      <img style="float: center;" src=Pictures/15.png width="1000" />
    </h1>
 </html>
 
@@ -60,13 +60,13 @@ information above and it should look like as shown below if the terminal was use
 
 <html>
    <h1>
-      <img style="float: center;" src=14.png width="1000" />
+      <img style="float: center;" src=Pictures/14.png width="1000" />
    </h1>
 </html>
 
 <html>
    <h1>
-      <img style="float: center;" src=2.png width="1000" />
+      <img style="float: center;" src=Pictures/2.png width="1000" />
    </h1>
 </html>
 
@@ -90,19 +90,19 @@ A string of many letters and numbers should appear indicating a new container wa
 
 <html>
    <h1>
-      <img style="float: center;" src=3.png width="1000" />
+      <img style="float: center;" src=Pictures/3.png width="1000" />
    </h1>
 </html>
 
 <html>
    <h1>
-      <img style="float: center;" src=4.png width="1000" />
+      <img style="float: center;" src=Pictures/4.png width="1000" />
    </h1>
 </html>
 
 <html>
    <h1>
-      <img style="float: center;" src=5.png width="1000" />
+      <img style="float: center;" src=Pictures/5.png width="1000" />
    </h1>
 </html>
 
@@ -111,7 +111,7 @@ On a web browser, type localhost:5000 and the application should appear
 
 <html>
    <h1>
-      <img style="float: center;" src=9.png width="1000" />
+      <img style="float: center;" src=Pictures/9.png width="1000" />
    </h1>
 </html>
 
@@ -135,7 +135,7 @@ imagename - The name of the image
 
 <html>
    <h1>
-      <img style="float: center;" src=7.png width="1000" />
+      <img style="float: center;" src=Pictures/7.png width="1000" />
    </h1>
 </html>
 
@@ -147,7 +147,7 @@ This specific commands makes a Kubernetes cluster and each cluster needs a port 
 
 <html>
    <h1>
-      <img style="float: center;" src=8.png width="1000" />
+      <img style="float: center;" src=Pictures/8.png width="1000" />
    </h1>
 </html>
 
@@ -179,7 +179,7 @@ targetPort: 5000
 
 <html>
    <h1>
-      <img style="float: center;" src=16.png width="1000" />
+      <img style="float: center;" src=Pictures/16.png width="1000" />
    </h1>
 </html>
 
@@ -187,6 +187,6 @@ On the internet browser, type in localhost:8081 to access the application.
 
 <html>
    <h1>
-      <img style="float: center;" src=10.png width="1000" />
+      <img style="float: center;" src=Pictures/10.png width="1000" />
    </h1>
 </html>
