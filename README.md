@@ -6,7 +6,7 @@
 
 <html>
      <h1>
-        <img style="float: center;" src=12.png width="1000" />
+        <img style="float: center;" src=Pictures/12.png width="1000" />
      </h1>
 </html>  
 
