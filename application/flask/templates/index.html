@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Converter</title>
+    <link rel="stylesheet" href="../static/style.css" />
+</head>
+<body>
+    <!-- <script src="../static/script.js"></script> -->
+    <header>
+        <h1 class="red_text">Youtube to MP3 Converter</h1>
+    </header>
+
+
+    <section class="url-form">
+        <h2>Please enter a link you want to convert!</h2>
+        <form action="/" method="POST">
+            <label><b>YouTube URL: </b></label>    
+            <input type="text" name="youtube_link" placeholder="url">
+            <button class="btn" type = "submit" value = "submit">Convert</button>
+        </form>
+    </section>
+
+    <section class="video_info">
+        <a href="{{video_details.get('video_url')}}" target="_blank" >
+            <img src="{{video_details.get('video_thumbnail')}}" alt="Video Thumbnail" width="640" height="360">
+        </a>
+
+        <h3>Title: {{video_details.get('video_title')}}</h3>
+        <h3>Author: {{video_details.get('video_author')}}</h3>
+        <h3>Views: {{video_details.get('video_views')}}</h3>
+        <h3>Published: {{video_details.get('video_published')}}</h3>
+    </section>
+
+    <section class="download-form">
+        <form action="/download" method="POST">
+                <button class="btn" type = "submit" value = "submit">Download</button>
+        </form>
+    </section>
+
+    <footer>
+        <h1>This is for <span class="red_text">EDUCATIONAL</span> purposes only!</h1>
+    </footer>
+
+
+</body>
+</html>
